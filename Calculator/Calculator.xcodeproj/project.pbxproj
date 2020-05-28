@@ -13,6 +13,7 @@
 		A4B6C47F247FADE500C2AE7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B6C47D247FADE500C2AE7A /* Main.storyboard */; };
 		A4B6C481247FADE700C2AE7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4B6C480247FADE700C2AE7A /* Assets.xcassets */; };
 		A4B6C484247FADE700C2AE7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4B6C482247FADE700C2AE7A /* LaunchScreen.storyboard */; };
+		A4B6C48D247FE0AC00C2AE7A /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4B6C48C247FE0AC00C2AE7A /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A4B6C480247FADE700C2AE7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A4B6C483247FADE700C2AE7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A4B6C485247FADE700C2AE7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4B6C48C247FE0AC00C2AE7A /* CalculatorBrain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,8 @@
 				A4B6C48B247FAE0400C2AE7A /* Supporting files */,
 				A4B6C47B247FADE500C2AE7A /* ViewController.swift */,
 				A4B6C47D247FADE500C2AE7A /* Main.storyboard */,
+				A4B6C48C247FE0AC00C2AE7A /* CalculatorBrain.swift */,
+				A4B6C485247FADE700C2AE7A /* Info.plist */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -70,7 +74,6 @@
 				A4B6C479247FADE500C2AE7A /* SceneDelegate.swift */,
 				A4B6C480247FADE700C2AE7A /* Assets.xcassets */,
 				A4B6C482247FADE700C2AE7A /* LaunchScreen.storyboard */,
-				A4B6C485247FADE700C2AE7A /* Info.plist */,
 			);
 			path = "Supporting files";
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				A4B6C47C247FADE500C2AE7A /* ViewController.swift in Sources */,
 				A4B6C478247FADE500C2AE7A /* AppDelegate.swift in Sources */,
+				A4B6C48D247FE0AC00C2AE7A /* CalculatorBrain.swift in Sources */,
 				A4B6C47A247FADE500C2AE7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
